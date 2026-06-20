@@ -23,7 +23,7 @@ export default function Location() {
           </div>
           <div className="location-map card map-card">
             <div className="map-placeholder">
-              🌍 AREA MAJALENGKA & SEKITARNYA
+              🌍 MELAYANI SABLON KAOS AREA MAJALENGKA & SEKITARNYA
             </div>
           </div>
         </div>

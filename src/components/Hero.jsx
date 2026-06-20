@@ -2,9 +2,9 @@ export default function Hero() {
   return (
     <header className="hero">
       <div className="hero-content">
-        <h1 className="hero-title">BIKIN SABLONMU <br/><span className="highlight">MAKIN KECE!</span></h1>
+        <h1 className="hero-title">SABLON KAOS CUSTOM <br/><span className="highlight">MAJALENGKA!</span></h1>
         <p className="hero-subtitle">
-          Kanken Project hadir buat wujudin ide kreatifmu jadi sablonan berkualitas. Sesuaikan gayamu, kualitas terjamin, harga bersahabat.
+          Kanken Project hadir buat wujudin ide kreatifmu jadi sablonan berkualitas. Jasa sablon terdekat di Majalengka, Leuwimunding. Sesuaikan gayamu, kualitas terjamin, harga bersahabat.
         </p>
         <div className="hero-actions">
           <a 
@@ -20,7 +20,7 @@ export default function Hero() {
       </div>
       <div className="hero-image">
         <div className="image-wrapper">
-          <img src="/kankenprojectlogo.jpeg" alt="Kanken Project Sablon" />
+          <img src="/kankenprojectlogo.jpeg" alt="sablon-kaos-custom-majalengka-kanken-project" />
         </div>
       </div>
     </header>
