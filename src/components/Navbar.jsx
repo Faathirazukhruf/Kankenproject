@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <img src="/logo.png" alt="Kanken Logo" className="nav-logo" />
+        <img src="/kankenprojectlogo.jpeg" alt="Kanken Logo" className="nav-logo" />
         <span>KANKEN.</span>
       </div>
       

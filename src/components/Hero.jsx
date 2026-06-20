@@ -20,7 +20,7 @@ export default function Hero() {
       </div>
       <div className="hero-image">
         <div className="image-wrapper">
-          <img src="/logo.png" alt="Kanken Project Sablon" />
+          <img src="/kankenprojectlogo.jpeg" alt="Kanken Project Sablon" />
         </div>
       </div>
     </header>
