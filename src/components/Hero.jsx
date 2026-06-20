@@ -2,7 +2,8 @@ export default function Hero() {
   return (
     <header className="hero">
       <div className="hero-content">
-        <h1 className="hero-title">SABLON KAOS CUSTOM <br/><span className="highlight">MAJALENGKA!</span></h1>
+        <h1 className="sr-only">Jasa Sablon Kaos Custom Majalengka</h1>
+        <h2 className="hero-title" aria-hidden="true">BIKIN SABLONMU <br/><span className="highlight">MAKIN KECE!</span></h2>
         <p className="hero-subtitle">
           Kanken Project hadir buat wujudin ide kreatifmu jadi sablonan berkualitas. Jasa sablon terdekat di Majalengka, Leuwimunding. Sesuaikan gayamu, kualitas terjamin, harga bersahabat.
         </p>

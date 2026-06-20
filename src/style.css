@@ -53,6 +53,19 @@ p {
   transform: rotate(-2deg);
 }
 
+/* Screen Reader Only (SEO Trick) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 /* Utilities */
 .bg-yellow { background-color: var(--yellow-color); }
 .bg-pink { background-color: var(--secondary-color); }
