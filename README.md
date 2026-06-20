@@ -9,11 +9,13 @@ Website ini dirancang untuk menampilkan layanan sablon cetak dari Kanken Project
 - **Penjelasan Layanan**: Detail tentang sablon *custom*, proses cepat, dan bahan premium.
 - **Integrasi WhatsApp**: Tombol CTA yang langsung mengarah ke nomor WhatsApp `+6282293632467` untuk kemudahan pemesanan.
 - **Lokasi Workshop**: Detail alamat lengkap beserta tautan Google Maps.
-- **Mobile Responsive**: Tampilan yang ramah perangkat seluler dengan navigasi *hamburger menu*.
+- **Mobile Responsive**: Tampilan yang ramah perangkat seluler dengan CSS *Mobile-First* dan navigasi *hamburger menu* (React State).
+- **SEO & AI Optimized**: Sudah dilengkapi dengan *Schema Markup* (`JSON-LD`), *Semantic HTML*, dan optimasi kata kunci lokal untuk mendominasi pencarian *Sablon Majalengka* di Google maupun platform pencarian berbasis AI (ChatGPT, Perplexity, Gemini).
 
 ## Tech Stack
 - **Vite**
-- **Vanilla HTML / CSS / JavaScript**
+- **React (Komponen Reusable)**
+- **Vanilla CSS (Mobile-First)**
 - Font: **Space Grotesk**
 
 ## Cara Menjalankan Secara Lokal

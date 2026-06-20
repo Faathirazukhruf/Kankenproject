@@ -14,7 +14,7 @@ Proyek ini menggunakan tema visual **Neobrutalism**. Setiap penambahan elemen UI
 Setiap perubahan atau penambahan fitur **HARUS** responsif dan terlihat bagus di perangkat seluler:
 - Periksa *media queries* (`@media (max-width: 768px)`) di `src/style.css`.
 - Pastikan teks dapat terbaca, *padding* tidak terlalu sempit, dan elemen *grid/flex* berubah menjadi satu kolom pada layar HP.
-- Jika menambahkan navigasi baru, pastikan terintegrasi dengan *hamburger menu* yang sudah ada di `src/main.js` dan `index.html`.
+- Jika menambahkan navigasi baru, pastikan terintegrasi dengan struktur *state* React (seperti `useState` untuk *hamburger menu* di komponen `Navbar.jsx`).
 
 ## 3. Identitas Proyek (Kanken Project)
 - **Usaha**: Sablon Cetak / Screen Printing.
@@ -24,5 +24,12 @@ Setiap perubahan atau penambahan fitur **HARUS** responsif dan terlihat bagus di
 
 ## 4. Aturan Kode (Coding Rules)
 - **Tidak Pakai Framework CSS**: Proyek ini menggunakan **Vanilla CSS** murni yang ditulis di `src/style.css`. Jangan instal TailwindCSS, Bootstrap, atau kerangka kerja gaya lainnya.
-- **Arsitektur Simpel**: Tetap pertahankan struktur Vite + Vanilla. Jangan tiba-tiba mengubah proyek menjadi React/Next.js kecuali *user* secara spesifik memintanya dengan perintah migrasi penuh.
-- **Bersih & Ringan**: Jangan tambahkan *library* eksternal yang berat jika bisa diselesaikan dengan JavaScript *native* (Vanilla JS).
+- **Arsitektur Simpel**: Proyek ini menggunakan **Vite + React**. Gunakan komponen yang *reusable* (`src/components/`) untuk memudahkan manajemen UI. Jangan tiba-tiba mengubah proyek menjadi Next.js kecuali *user* memintanya.
+- **Bersih & Ringan**: Gunakan *hooks* bawaan React (`useState`, `useEffect`) daripada menginstal *library* state management atau *library* eksternal yang berat.
+
+## 5. Aturan SEO & AI (GEO/AIO)
+Setiap menambah komponen, halaman, atau merombak konten, **WAJIB** memperhatikan kaidah SEO Lokal dan AIO (AI Optimization):
+- **Schema Markup**: Pastikan script `JSON-LD` di dalam `index.html` selalu mewakili data bisnis yang paling *update* (alamat, jam buka, dsb.).
+- **Semantic HTML**: Gunakan *tag* semantik seperti `<nav>`, `<header>`, `<main>`, `<section>`, `<article>`, dan pastikan struktur *Heading* (H1, H2, H3) urut agar mudah di-*crawl* oleh mesin pencari maupun bot AI.
+- **Entity Density**: Selalu sertakan *Local Keywords* seperti "Majalengka", "Leuwimunding", "Sablon Custom", dan "Kanken Project" secara natural di dalam komponen teks (`Hero.jsx`, `Services.jsx`, dll.).
+- **Image Optimization**: Setiap elemen `<img>` wajib memiliki atribut `alt` yang deskriptif dan SEO-friendly, misalnya `alt="sablon-kaos-custom-majalengka-kanken-project"`.
