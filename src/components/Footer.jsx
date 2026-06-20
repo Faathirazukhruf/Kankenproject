@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-brand">
           <h2 className="footer-logo">KANKEN PROJECT.</h2>
-          <p>Sablon Cetak Gen-Z Neobrutalism</p>
+          <p>Ekspresikan Dirimu, Cetak Gayamu.</p>
         </div>
         <div className="footer-links">
           <a href="#about">Tentang</a>
