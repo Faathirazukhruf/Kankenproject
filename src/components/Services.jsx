@@ -12,12 +12,12 @@ export default function Services() {
           <div className="card">
             <div className="card-icon">⚡</div>
             <h3>Sablon Komunitas & Event</h3>
-            <p>Nggak pake lama, hasil rapi dan tahan lama. Cocok banget buat event, seragam komunitas, atau brand kaos kamu sendiri di sekitar Leuwimunding.</p>
+            <p>Nggak pake lama, hasil rapi dan tahan lama. Cocok banget buat event, seragam komunitas, atau brand kaos kamu sendiri, siap kirim dari Majalengka ke seluruh Indonesia!</p>
           </div>
           <div className="card">
             <div className="card-icon">👕</div>
             <h3>Bahan Kaos Premium</h3>
-            <p>Bahan sablon & kaos pilihan yang nyaman dipakai seharian. Nggak cuma gaya, tapi juga awet untuk cuaca lokal Majalengka!</p>
+            <p>Bahan sablon & kaos pilihan yang nyaman dipakai seharian. Nggak cuma gaya, tapi juga awet dipakai nongkrong di mana pun kamu berada!</p>
           </div>
         </div>
       </div>
